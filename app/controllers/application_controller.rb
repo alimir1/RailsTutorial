@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
-  def display_something
-    render html: "my name is ishraq abidi and I come in peace"
+  def welcome
+    render html: "Welcome to Abidi. A place for anyone to learn anything."
   end
 end
